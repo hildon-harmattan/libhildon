@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/hildon-1
+
+Name: hildon
+Description: Hildon widgets library
+Requires: gtk+-2.0 >= 2.14.3
+Version: 2.2.23
+Libs: -L${libdir} -lhildon-1
+Cflags: -I${includedir} -DMAEMO_CHANGES -DMAEMO_GTK

@@ -1,0 +1,258 @@
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release link_pkgconfig create_pc create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/devicelock.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib qdbus dbusadaptors dbusinterfaces moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtNetwork.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols create_pc create_prl middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtVersit.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework APPEAR_IN_MENU gui meegotouch debug dcpconfig create_pc create_prl no_install_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/duicontrolpanel.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework debug syslog iphb warn_on link_pkgconfig create_pc create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/qmfclient.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release create_pc create_prl no_install_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/quillmetadata.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip create_pc create_prl hide_symbols no_keywords moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtSparql.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build x11 qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib x11sm opentype moc thread x11lib x11inc shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtGui.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework dll create_pc create_prl shared dll moc thread dbusadaptors dbusinterfaces
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/syncfwclient.pc
+qt_config=lex yacc debug uic resources qt incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib qt warn_off hide_symbols moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtCLucene.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build link_pkgconfig qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtDBus.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release quillmetadata create_pc create_prl no_install_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/quillimagefilter.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtCore.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework debug syslog iphb warn_on qmfclient mobility create_pc create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/qmfmessageserver.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtSql.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework dll create_pc create_prl shared dll moc thread dbusadaptors dbusinterfaces
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/syncprofile.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols mobility link_pkgconfig middleware create_pc create_prl create_prl mobility_build moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtConnectivity.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework dll create_pc create_prl shared dll moc thread
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/syncpluginmgr.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtContacts.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release warn_on mcontentwidgets dll libsaveas meegotouch qmsystem2 quill shareuiinterface-maemo-meegotouch contactsinterface-maemo-meegotouch qtsparql create_pc create_prl mobility link_pkgconfig meegotouch meegotouch quillimagefilter timed qt moc thread dbusadaptors dbusinterfaces shared dll QtLocation locationextras tracker locationpicker
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/gallerycore.pc
+qt_config=include_source_dir lex yacc uic resources qt release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework build_qttests_separately use_qt_mobile_theme release building-libs depend_includepath production depend_includepath include_webinspector hide_symbols bsymbolic_functions mobility x11 link_pkgconfig mobility create_pc create_prl x11lib x11inc moc thread opengl dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtWebKit.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework maemo release link_pkconfig link_pkgconfig create_pc create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/MssfCryptoQt.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtServiceFramework.pc
+Name: pciaccess
+Libs: -L${libdir} -lpciaccess
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/pciaccess.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig create_pc create_prl middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+Libs.private: -L/home/bifh3/cs2009q3-i386/work/qt-mobility-1.2.1+193+0m6/lib -L/usr/lib  -lblkid -lX11 -lXrandr -lbmeipc -liphb -pthread -lgconf-2 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lQtDBus -lQtGui -lQtNetwork -lQtCore -lpthread   
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtSystemInfo.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework maemo release link_pkconfig link_pkgconfig create_pc create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/MssfCertManQt.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtXml.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtFeedback.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework dll create_pc create_prl shared dll moc thread dbusadaptors dbusinterfaces
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/synccommon.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework quillimagefilter quillmetadata create_pc create_prl no_install_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/quill.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework maemo release link_pkgconfig create_pc create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/MssfCredsQt.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols create_pc create_prl middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtVersitOrganizer.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework APPEAR_IN_MENU gui meegotouch debug dcpconfig create_pc create_prl no_install_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/meegotouch-controlpanel.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtXmlPatterns.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib hide_symbols moc thread dbusadaptors dbusinterfaces shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/phonon.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath fix_output_dirs QTDIR_build qt staticlib create_pc static staticlib moc thread
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtUiTools.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols app create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtOrganizer.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtSvg.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols qdbus link_pkgconfig middleware create_pc create_prl create_prl dbusadaptors dbusinterfaces moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtLocation.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib x11 opengl x11lib x11inc moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtOpenGL.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols strict_flags create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtSensors.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtDeclarative.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt warn_on qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtHelp.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig create_pc create_prl middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtMessaging.pc
+qt_config=lex yacc debug uic resources qt incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib building-libs standalone_package depend_includepath moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtScript.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework qt debug link_pkgconfig qtsparql qtsparql-tracker-extensions create_pc create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/share-ui-common.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl exceptions no_mocdepend stl qt_no_framework link_pkgconfig shared debug create_prl create_pc dll shared moc thread
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/libsignon-qt.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtTest.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework create_pc create_prl mobility moc thread dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/syncmlcommon.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtMultimedia.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtPublishSubscribe.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig middleware create_pc create_prl create_prl moc thread opengl dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtMultimediaKit.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework dll create_pc create_prl link_pkgconfig shared dll moc thread
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/meegosyncml.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework system-sqlite debug shared dll largefile stl mmx 3dnow sse sse2 sse3 ssse3 sse4_1 sse4_2 avx dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtScriptTools.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/QtGallery.pc
+Requires: pixman-1 pciaccess
+/targets/HARMATTAN_X86/usr/lib/pkgconfig/xorg-server.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release tee link_pkgconfig create_pc create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/devicelock.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib qdbus dbusadaptors dbusinterfaces moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtNetwork.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols create_pc create_prl middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtVersit.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework NODOC APPEAR_IN_MENU gui meegotouch debug dcpconfig create_pc create_prl no_install_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/duicontrolpanel.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework debug syslog iphb warn_on link_pkgconfig create_pc create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/qmfclient.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release create_pc create_prl no_install_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/quillmetadata.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip create_pc create_prl hide_symbols no_keywords moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtSparql.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build x11 qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib x11sm opentype egl moc thread x11lib x11inc shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtGui.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework dll create_pc create_prl shared dll moc thread dbusadaptors dbusinterfaces
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/syncfwclient.pc
+qt_config=lex yacc uic resources qt release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib qt warn_off hide_symbols moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtCLucene.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build link_pkgconfig qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtDBus.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework release quillmetadata create_pc create_prl no_install_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/quillimagefilter.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtCore.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework debug syslog iphb warn_on qmfclient mobility create_pc create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/qmfmessageserver.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtSql.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework dll create_pc create_prl shared dll moc thread dbusadaptors dbusinterfaces
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/syncprofile.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols mobility link_pkgconfig middleware create_pc create_prl create_prl mobility_build moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtConnectivity.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework dll create_pc create_prl shared dll moc thread
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/syncpluginmgr.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtContacts.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release warn_on mcontentwidgets dll libsaveas meegotouch qmsystem2 quill shareuiinterface-maemo-meegotouch contactsinterface-maemo-meegotouch qtsparql create_pc create_prl mobility link_pkgconfig meegotouch meegotouch quillimagefilter timed qt moc thread dbusadaptors dbusinterfaces shared dll QtLocation locationextras tracker locationpicker
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/gallerycore.pc
+qt_config=include_source_dir lex yacc uic resources qt release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework build_qttests_separately use_qt_mobile_theme release building-libs depend_includepath production depend_includepath include_webinspector hide_symbols bsymbolic_functions mobility x11 link_pkgconfig mobility create_pc create_prl x11lib x11inc moc thread opengl dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtWebKit.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework maemo release link_pkconfig link_pkgconfig create_pc create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/MssfCryptoQt.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtServiceFramework.pc
+Name: pciaccess
+Libs: -L${libdir} -lpciaccess
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/pciaccess.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig create_pc create_prl middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+Libs.private: -L/home/bifh3/cs2009q3-armel/work/qt-mobility-1.2.1+193+0m6/lib -L/usr/lib  -lblkid -lX11 -lXrandr -lbmeipc -liphb -pthread -lgconf-2 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lgthread-2.0 -lrt -lglib-2.0 -lQtDBus -lQtGui -lQtNetwork -lQtCore -lpthread   
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtSystemInfo.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework maemo release link_pkconfig link_pkgconfig create_pc create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/MssfCertManQt.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtXml.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtFeedback.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework dll create_pc create_prl shared dll moc thread dbusadaptors dbusinterfaces
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/synccommon.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework quillimagefilter quillmetadata create_pc create_prl no_install_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/quill.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework maemo release link_pkgconfig create_pc create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/MssfCredsQt.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols create_pc create_prl middleware create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtVersitOrganizer.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend stl qt_no_framework NODOC APPEAR_IN_MENU gui meegotouch debug dcpconfig create_pc create_prl no_install_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/meegotouch-controlpanel.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtXmlPatterns.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib hide_symbols moc thread dbusadaptors dbusinterfaces shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/phonon.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release largefile stl neon dylib create_prl link_prl depend_includepath fix_output_dirs QTDIR_build qt staticlib create_pc static staticlib moc thread
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtUiTools.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols app create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtOrganizer.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtSvg.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols qdbus link_pkgconfig middleware create_pc create_prl create_prl dbusadaptors dbusinterfaces moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtLocation.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib x11 opengl opengles2 egl x11lib x11inc moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtOpenGL.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols strict_flags create_pc create_prl create_prl moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtSensors.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtDeclarative.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt warn_on qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtHelp.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig create_pc create_prl middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtMessaging.pc
+qt_config=lex yacc uic resources qt release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib building-libs standalone_package depend_includepath moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtScript.pc
+qt_config=include_source_dir lex yacc warn_on debug uic resources qt warn_on incremental link_prl nostrip def_files_disabled exceptions no_mocdepend debug stl qt_no_framework qt debug link_pkgconfig qtsparql qtsparql-tracker-extensions create_pc create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/share-ui-common.pc
+qt_config=lex yacc warn_on debug uic resources qt warn_on incremental link_prl exceptions no_mocdepend stl qt_no_framework link_pkgconfig shared debug create_prl create_pc dll shared moc thread
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/libsignon-qt.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtTest.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework create_pc create_prl mobility moc thread dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/syncmlcommon.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtMultimedia.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtPublishSubscribe.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols link_pkgconfig middleware create_pc create_prl create_prl moc thread opengl dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtMultimediaKit.pc
+qt_config=include_source_dir lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework dll create_pc create_prl link_pkgconfig shared dll moc thread
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/meegosyncml.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework system-sqlite release shared dll largefile stl neon dylib create_prl link_prl depend_includepath QTDIR_build qt_install_headers qt warn_on depend_includepath qmake_cache target_qt hide_symbols bsymbolic_functions create_libtool create_pc explicitlib moc thread shared dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtScriptTools.pc
+qt_config=lex yacc warn_on uic resources qt warn_on release incremental link_prl nostrip def_files_disabled exceptions no_mocdepend release stl qt_no_framework release silent maemo6 maemo_tests hide_symbols middleware create_pc create_prl create_prl moc thread dbusadaptors dbusinterfaces dll
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/QtGallery.pc
+Requires: pixman-1 pciaccess
+/targets/HARMATTAN_ARMEL/usr/lib/pkgconfig/xorg-server.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/gtk/libgtk-${target}-2.0.la 
+Cflags: -I${pc_top_builddir}/${pcfiledir}/. -I${pc_top_builddir}/${pcfiledir} -DMAEMO_CHANGES
+/home/qwazix/cordia/gtk/gtk+-2.0-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/modules/other/gail/libgail.la ${pc_top_builddir}/${pcfiledir}/modules/other/gail/libgail-util/libgailutil.la
+Cflags: -I${pc_top_builddir}/${pcfiledir}/modules/other/gail
+/home/qwazix/cordia/gtk/gail-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/gdk/libgdk-${target}-2.0.la 
+Cflags: -I${pc_top_builddir}/${pcfiledir}/./gdk -I${pc_top_builddir}/${pcfiledir}/. -I${pc_top_builddir}/${pcfiledir} 
+/home/qwazix/cordia/gtk/gdk-2.0-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/pango/libpangowin32.la 
+Cflags: -I${pc_top_builddir}/${pcfiledir}/.
+/home/qwazix/cordia/pango-1.24.2/pangowin32-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/pango/libpangoxft-1.0.la
+Cflags: -I${pc_top_builddir}/${pcfiledir}/.
+/home/qwazix/cordia/pango-1.24.2/pangoxft-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/pango/libpango-1.0.la 
+Cflags: -I${pc_top_builddir}/${pcfiledir}/.
+/home/qwazix/cordia/pango-1.24.2/pango-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/pango/libpangocairo-1.0.la
+Cflags: -I${pc_top_builddir}/${pcfiledir}/.
+/home/qwazix/cordia/pango-1.24.2/pangocairo-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/pango/libpangoft2-1.0.la
+Cflags: -I${pc_top_builddir}/${pcfiledir}/.
+/home/qwazix/cordia/pango-1.24.2/pangoft2-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/pango/libpangox-1.0.la  -lX11
+Cflags: -I${pc_top_builddir}/${pcfiledir}/. 
+/home/qwazix/cordia/pango-1.24.2/pangox-uninstalled.pc
+Libs: ${pc_top_builddir}/${pcfiledir}/atk/libatk-1.0.la
+Cflags: -I${pc_top_builddir}/${pcfiledir}/.
+/home/qwazix/cordia/atk-1.29.2/atk-uninstalled.pc

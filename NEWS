@@ -1,0 +1,1301 @@
+[ 2.2.23 release ]
+
+  * Do not use stock items internally to avoid breaking applications.
+    Fixes: NB#176748 ( Logical strings are shown instead of Yes/No buttons)
+  * Minor examples fix.
+
+[ 2.2.22 release ]
+
+  * Add stock items for Hildon common strings.
+  * Fixes: NB#174382 (Only filtered contacts are picked from contact
+    list)
+
+[ 2.2.21 release ]
+
+  * Documentation fixes.
+  * Make the HildonLiveSearch match asynchronous.
+  * Fixes: NB#162288 (Changing the presence continously will lead to
+    multiple GLIB Criticals in syslog)
+  * Fixes: MB#9948 (Contact quick search entering L does not recognize
+    Polish "Ł")
+  * Fixes: NB#165083 (Contact quick search entering L does not
+    recognize Polish "Ł")
+
+[ 2.2.20 release ]
+
+  * Fixes: NB#156325 (Hildon-Banner Example - Animation beside the
+    animation banner is not visible when animation button is clicked)
+  * Fixes: NB#165632 (HildonLiveSearch wasting CPU in
+    gtk_tree_model_filter_convert_child_path_to_path)
+  * Asynchronous HildonLiveSearch searching.
+
+[ 2.2.19 release ]
+
+  * Fixes: NB#163953 (Move live search code from HildonTouchSelector to HildonLiveSearch)
+    This time for real.
+
+[ 2.2.18 release ]
+
+  * Fixes: NB#160879 (crash in pannable area with glib 2.23.5)
+  * Fixes: NB#163953 (Move live search code from HildonTouchSelector to HildonLiveSearch)
+
+[ 2.2.17 release ]
+
+  * Fixes: NB#158695 (HildonTouchSelector looks bad in portrait mode)
+
+[ 2.2.16 release ]
+
+  * Fixes NB#158744 (1st selected contact from the list is replaced with
+    the next one instead of appending both to the list)
+
+[ 2.2.15 release ]
+
+  * Fixes: NB#158130 (hildon_live_search_set_text needed for File Manager)
+
+[ 2.2.14 release ]
+
+  * Fixes: NB#156737 (Calnedar app. always crashes after changing the
+    language to Bulgarian and when trying to add a new event)
+  * Fixes: MB#9194 (hildon_pannable_area_scroll_to() example)
+  * Fixes: NB#140251 (Livesearch for File Manager)
+
+[ 2.2.13 release ]
+
+  * Fixes: NB#155502 (HildonPickerDialog doesn't support portrait mode)
+  * Fixes: MB#8731 (Memory leaks in widget HildonAnimationActor)
+
+[ 2.2.12 release ]
+
+  * Fixes: NB#123249 (HildonTouchSelectorEntry is case-sensitive)
+  * Fixes: NB#140410 (consider increasing the SPS (samples per second)
+    value in the HildonPannableArea)
+  * Fixes: NB#152686 (Observed hildon-home criticals while adding a
+    shortcut)
+  * Fixes: NB#152909 (Making the panning indicator more evident)
+  * Fixes: MB#4579 (HildonWindowClipboardOperation is completely
+    undocumented)
+  * Fixes: MB#4640 (hildon_touch_selector_get_active_iter() needed)
+  * Fixes: MB#5284 (HildonPannableArea: size-request-policy property
+    should be deprecated)
+  * Fixes: MB#6069 (Documentation missing on HildonNote vs "Cancel"
+    button)
+
+[ 2.2.11 release ]
+
+  * Fixes: NB#151517 (Device "freezes" and unable to access view menu of
+    chat view in a certain scenario)
+  * Fixes: NB#151707 (HildonLiveSearch breaks keyboard shortcuts)
+  * Fixes: NB#135340 (view not scrolling according to cursor position)
+  * HildonLiveSearch support for GtkIconView
+  * API change in hildon_live_search_hook_widget()
+  * Fixed critical warning in
+    hildon_touch_selector_set_column_selection_mode()
+  * Other fixes.
+
+[2.2.10 release]
+
+  * Fixes: NB#121965 (Region touch list picker: Value in search field
+    is not selected in specified scenario)
+  * Fixes: NB#151707 (HildonLiveSearch breaks keyboard shortcuts)
+  * Fixes: NB#152068 (drop down list in browser appears with the first
+    item highlighted)
+  * Fixes: NB#151334 (live search not proper for picker buttons)
+  * Fixes: NB#151339 (Picker value becomes empty when selection is made
+    via live search)
+  * New hildon_live_search_clean_selection_map()
+  * Make HildonTouchSelector::live-search read-write
+
+[2.2.9 release]
+
+  * Fixes: NB#137994 (scroll indicator never disappears in a scenario)
+  * Fixes: NB#126074 (size of confirmation dialog varies after rotating
+    from portrait to landscape)
+  * Fixes: NB#145156 (HildonPickerDialog: Entered Skype contact name
+    disappears from dialpad input box when call type dialog is opened and
+    cancelled)
+  * Fixes: NB#137474 (Progress note layout is not correct)
+  * Fixes: NB#141835 (HildonBanner reappears if the screen is rotated)
+  * Fixes: NB#120613 (Size of HildonBanner varies depending on previously
+    opened banners)
+  * Fixes: NB#143625 (Timed custom banner interferes with timed normal
+    banners)
+  * Fixes: NB#145298 (HildonTouchSelector: Call type button in dial pad
+    shows the skype account even after disabling.)
+  * Fixes: NB#149035 ("Never" is not deselected when selected other Repeat
+    option(like Mon or Tues or ...) in the edit alarm dialog)
+  * Fixed: NB#150319 (HildonAppMenu doesn't show when another top level
+    widget is around)
+  * Fixes: NB#150710 (live search not working for numbers)
+  * Fixes: NB#150628 (Live Search doesn't come up in Profiles applet until
+    the focus is changed)
+  * Other HildonLiveSearch minor tweaks and fixes.
+  * Support for selection inside HildonPannableArea.
+
+[2.2.8 release]
+
+  * Fix a critical warning in HildonTouchSelector.
+
+[2.2.7 release]
+
+  * Fixes: NB#149039 (controlpanel crashing in a scenario)
+
+[2.2.6 release]
+
+  * Fixes: NB#148188 (The required #include directives are not documented
+    for Hildon)
+  * Fixes: MB#6268 (The required #include directives are not documented
+    for Hildon)
+  * Fixes: NB#147988 (Unable to act on 'Voip and IM accounts' dialog on a
+    certain scenario.)
+  * Improved string matching in the HildonTouchSelector live search.
+
+[2.2.5 release]
+
+  * Improved HildonLiveSearch support in HildonTouchSelector.
+  * Better API for HildonLiveSearch.
+  * Fixes: NB#146250 (Documentation error in hildon-touch-selector.c)
+  * Fixes: NB#119708 (Text in 'Disconnect..." banner is not aligned
+    properly, when changed from portrait to lanscape mode.)
+  * Fixes: NB#134010 (Device not usable after opening the image from
+    external application when image viewer contains edited and unsaved
+    image)
+  * Fixes: NB#147342 (Done button of HildonPickerDialog doesn't work for
+    empty models)
+  * Fixes: NB#147341 (HildonTouchSelectorEntry crashes when a populated
+    model is attached)
+
+[2.2.4 release]
+
+  * Fixes: NB#134010 (Device not usable after opening the image from
+    external application when image viewer contains edited and unsaved
+    image)
+  * Fixes: NB#142952 (Search support for lists)
+
+[2.2.3 release]
+
+  * Fixes: NB#143759 (Setting the same selector twice to a picker button
+    ends with the selector destroyed)
+
+[2.2.2 release]
+
+  * Several memory leak fixes.
+  * Fixes: NB#141240 (New API: hildon_gtk_window_enable_zoom_keys())
+  * Fixes: NB#135750 (Permanent XErrors while switching between windows
+    and task switcher)
+  * Fixes: NB#125548 (HildonProgram notify::is-topmost is not working
+    properly with stacks)
+  * Fixes: NB#140339 (Unnecessary wake-ups in application due to XAtoms)
+
+[2.2.1 release]
+
+  * Fixes: NB#141140 (Rotation stops when banner is present)
+  * Fixes: NB#141367 (Reproducible browser crash)
+  * Fixes: NB#141447 (HildonBanner crashes if a new one is shown
+    during a delete event)
+  * Fixes: NB#134010 (Device not usable after opening the image from
+    external application when image viewer contains edited and unsaved
+    image)
+  * Fixes: NB#141831 (memory leak in hildon-touch-selector)
+
+[2.2.0 release]
+
+  * Fixes: NB#132584 (Pannable kinetics in large lists needs tuning)
+  * Fixes: MB#4580 (HILDON_WINDOW_LONG_PRESS_TIME is undocumented)
+  * Fixes: NB#127018 (Panning indicator fades out too slowly)
+  * Improved UX for the pannable area with large lists.
+  * Fixes: 137604 (Pannable scroll_to does not move correctly)
+  * NB#137814 (Indicator for view menu in app title area)
+  * Fixes: NB#137604 (Pannable scroll_to does not move correctly)
+  * Documentation fixes updates (MB#5103, MB#5104)
+  * Fixes: NB#138857 (hildon_gtk_window_take_screenshot doesn't take a
+    screenshot)
+  * Fixes: NB#140140 (Allow custom widgets to be used in banners)
+  * Fixes: NB#140186 (HildonPannableArea goes into an infinite loop)
+
+[2.1.97 release]
+
+  * Fixes: NB#133252 (Opening any feed item from RSS always opens the
+         first feed item in browser)
+  * Fixes: NB#135179 (Remove pannable timeouts in unrealize function)
+  * Fixes: NB#133767 (Information and confirmation note sound should
+    follow system profile setting)
+  * Fixes: NB#134533 (UI freezes if we show a dialog with
+    gtk_dialog_run() while a menu is opened)
+  * Fixes: NB#110894 (In event view containing very large description
+    field, application menu is displayed blank while panning)
+  * Fixes: NB#131942 (HildonPickerDialog is seen empty when popping up
+    for the first time)
+  * Fixes: NB#131911 (Appmenu does not resize properly, when number of
+    menu items change)
+  * Documentation updates
+
+[2.1.96 release]
+
+  * Fixes: NB#133252 (Opening any feed item from RSS always opens the
+         first feed item in browser)
+  * Fixes: NB#135179 (Remove pannable timeouts in unrealize function)
+  * Fixes: NB#132584 (Pannable kinetics in large lists needs tuning)
+
+[2.1.95 release]
+
+  * Fixes: NB#131794 (pannable area produces unnecessary allocations
+    causing performance problems)
+  * Fixes: NB#130900 (HildonPannableArea will leak it's event_window
+    if it's realized without showing and then deleted)
+
+[2.1.94 release]
+
+  * Fixes: NB#130910 (Screen gets unlocked when menu is open)
+  * Fixes: NB#126115 (Pannable list overshooting is unusably slow for
+    lists with slow row renderers)
+  * Fixes: NB#126198 (gdk-threads API should be used to install idle and
+    timeout handlers)
+
+[2.1.93 release]
+
+  * Fixes: NB#122395 (hildon_entry_set_placeholder() should be in
+    GtkEntry)
+  * Fixes: NB#131013 (unable to stop panning file manager by tapping on
+    it)
+
+[2.1.92 release]
+
+  * Fixes: NB#130043 (scrollindicator not smooth while panning)
+  * Fixes: NB#123409 (Showing dialog consumes significant amount of
+    time)
+  * Fixes NB#130291 (New HildonTouchSelector API is required to center on
+    any column item)
+
+[2.1.91 release]
+
+   * Fixes: NB#118398 (HildonEntry - unnecessary rescaling of images)
+
+[2.1.90 release]
+
+  * Fixes: NB#127896 (Information notes text truncated)
+
+[2.1.88 release]
+
+  * Fixes: NB#124510 (The Application Menu is distorted when switched
+    between portrait and landscape mode)
+  * Fixes: NB#115388 (Power key menu does not resize itself)
+  * Fixes: NB#108487 (Phone settings dialog should scroll to focused field)
+  * Fixes: NB#121445 (Virtual keyboard opening is not working in same
+    way for each text entry field)
+
+[2.1.86 release]
+
+  * MB#4700 (HildonFindToolbar documentation lacks Gtk-Doc markup,
+    and needs cleanup)
+  * Fixes: NB#124090 (New calendar wizard title is not using
+    ecdg_ti_caption_separator)
+  * Fixes: NB#121732 (New feature request: Signal to pannable area
+    that informs when panning is stopped.)
+  * Fixes: NB#124385 (Unable to select exact point in color mixing box
+    in color palette dialog)
+  * Fixes: NB#120500 (only device memory connect mmc in use info
+    banner is left aligned)
+  * Fixes: NB#124408 (Confirmation notes: the 'Yes' button overlaps
+    with the dialog edge)
+  * Fixes: NB#95685 (Add field dialog should use HILDON_UI_MODE_NORMAL)
+
+[2.1.84 release]
+
+  * Fixes: NB#122033 (Filter buttons in view menus incorrectly sized)
+  * Fixes: NB#108337 (Focus mismatch in items of AppMenu)
+  * Fixes: NB#102373 (Progress indicator also for the Edit mode
+    toolbar)
+  * Fixes: MB#4598 (HildonCheckButton documentation doesn't say why it
+    exists)
+  * Fixes: MB#4528 (HildonPickerButton docs should mention how to set
+    the title of its dialog)
+  * Fixes: MB#4556 (HildonNoteType is undocumented)
+  * Fixes: NB#118375 (unnecessary rescaling of images)
+  * Fixes MB#4697 (Documentation in HildonCaption)
+  * Fixes: MB#4698 (DateSelector documentation has bad output argument
+    description, and the day depends on both the month and the year)
+  * Fixes: NB#123448 (HildonNote is not portrait-friendly)
+  * Fixes: MB#4701 (HildonNote documentation lacks some Gtk-Doc markup and
+    has some mistakes)
+  * Fixes: NB#122389 (Stacking mixup when removing HildonStackableWindow
+    from the middle of the stack)
+  * Many other documentation improvements and fixes.
+
+[2.1.82 release]
+
+  * Fixes: NB#101420 (Update unit tests and fix make distcheck)
+  * Fixes: MB#4641 (Documentation:
+    hildon_touch_selector_append_column() ref-counting)
+  * New public API: hildon_touch_selector_set/get_column()
+  * Fixes: NB#117931 (Theming issues in accounts dialogs)
+  * Fixes: MB#4563 (Popup menu won't locate at the left side of the
+    screen)
+  * Fixes: NB#101437 (Invoking CSM on the left side of page area is
+    displayed in wrong location)
+  * Fixes: NB#122254 (random crash occured for contacts while sending
+    contact card thorugh email)
+  * Fixes: MB#4554 (Documentation: Annoying "represents" phrasing.)
+  * Fixes: MB#4463 (Hildon size #defines are undocumented)
+  * Many other documentation fixes.
+
+[2.1.80 release]
+
+  * Fixes: NB#119805 (Merge conflict picker dialogs are too small)
+  * Fixes: NB#109878 (height and width of focus on color icon is not
+    consistent with other item in the application tool bar)
+  * Fixes: NB#120941 (HildonWindow using deprecated GTK_CHECK* macros)
+  * Fixes: MB#4643 (Documentation: hildon_banner_show_information()
+    memory management)
+  * Fixes: NB#113065 (Image viewer image scrolling updates in X, then
+    Y)
+  * Corrections to hildon_format_file_size_for_display () (Christian Dywan)
+  * Examples updates.
+
+[2.1.78 release]
+
+  * Fixes: NB#115988 (hildon_app_menu_popup creates menu with "crushed"
+    button(s) in the top left corner)
+  * Fixes: NB#118903 (Account setup wizard: Text in Search field should
+    be focused when "Region" touch list picker is reopened again)
+  * Fixes: NB#117927 (Application menu not usable with animation
+    actors)
+  * Fixes: NB#108265 (Animation banner not properly centered)
+  * HildonEntry sizing improvements.
+  * Other code fixes.
+
+[2.1.76 release]
+
+  * Fixes: NB#117928 (Widgets such as Entry and CheckButton (and
+    others) do too much in the _new function)
+  * Fixes: NB#114874 (There is no possibility to show hildon banners with
+    DND flag set)
+  * Fixes: NB#117870 ('Disconnect charger...' info banner is truncated
+    on transition from landscape to portrait)
+  * Fixes: NB#109063 (HildonAppMenu shouldn't show its items
+    automatically when they're added)
+  * Fixes: NB#116607 (Pannable area should always have scrollbar visible
+    initially if the application can be scrolled)
+  * Several HildonPannableArea usability improvements.
+
+[2.1.74 release]
+
+  * Fixes: NB#116289 (Hildon home crashes while adding task shortcuts.)
+  * Fixes: NB#116682 (Destroying parented animation actors when parent
+    in unmapped leads to crash) (Artem Egorkine)
+  * Fixes: NB#116786 (Image viewer crases whie trying to launch menu,
+    in a scenario)
+  * Fixes: NB#107486 (HildonWindow should size itself properly)
+  * Fixes: NB#106374 (Need API to take a loading screenshot)
+
+  New API:
+  * hildon_format_file_size_for_display() (Christian Dywan)
+  * hildon_gtk_window_take_screenshot()
+
+  Other:
+
+  * Fix tests build during distcheck.
+  * HildonButton minor fixes.
+  * Coverity reported fixes.
+
+[2.1.72 release]
+
+  * Fixes: NB#114395 ('Disconnect charger...' info banner in portrait is truncated)
+  * Fixes: NB#113761 (Update progress banner to use progress indicator)
+  * Fixes: NB#114253 (HildonPickerButton not refreshing its value)
+  * Fixes: NB#109369 (Hard-coded height in HildonPickerDialog)
+  * Fixes: NB#105529 (Empty App menu is launched in a scenario.)
+  * Fixes: NB#115166 (Formatting memory card is not taking place)
+  * Fixes: NB#115242 (Sound is not played every time for the 'Switch off
+     device?' confirmation note)
+
+   Other:
+
+  * New unit tests for HildonPickerButton
+  * Set "dialog-information" role for sounds played by hildon_play_system_sound()
+  * Documentation and examples fixes.
+
+[2.1.70 release]
+
+  * Fixes: NB#111962 (mail_in_ui_folder_move_target_error not aligned
+    properly)
+  * Fixes: NB#112933 (text is not left aligned in confirmation dialog
+    is connectivity dialog)
+  * Fixes: NB#111606 (HildonTimeSelector should expose API to
+    set/unset am/pm mode)
+  * Fixes: NB#111160 (!HildonEditToolbar buttons are focused after
+    typing on an HW arrows key)
+
+  New API:
+
+  * HildonTimeSelector:time-format-policy
+
+[2.1.68 release]
+
+  * Fixes: NB#109635 (Confirmation notes do not support portrait)
+  * Fixes: NB#112328 (Adding helpers for setting portrait properties)
+  * Fixes: NB#108470 (Selected items in multiple selection are either
+    having a tick that is cut or not visible at all.)
+  * NB#111027 (Title menu closed immediately if activated when
+    "Invalid e-mail address" banner is shown)
+
+  New API:
+
+  * hildon_gtk_window_set_portrait_flags()
+  *(hildon_gtk_window_set_progress_indicator),
+   (hildon_gtk_window_set_do_not_disturb),
+   (hildon_gtk_window_set_portrait_flags): will work even if the window is
+   not realized yet.
+
+  Deprecated API:
+
+  * hildon_pannable_area_get/set_size_request_policy,
+    HildonSizeRequestPolicy: deprecated.
+
+[2.1.66 release]
+
+  * Fixes: NB#110689 (HildonPickerButton doesn't ellipsize very long values)
+  * Fixes: NB#110959 (Add API to set the do-not-disturb flag to a window)
+  * Fixes: NB#111206 (stylus sized icon for animation banner)
+  * Fixes: NB#111962 (mail_in_ui_folder_move_target_error not aligned
+    properly)
+  * Fixes: NB#111830 (HildonBanner should be marked as supporting
+    portrait)
+
+[2.1.64 release]
+
+  * Fixes: NB#110244 (Problems with the
+    hildon_pannable_area_set_size_request_policy API)
+
+[2.1.62 release]
+
+  * Fixes: NB#110029 (selectors not scrolling to selected value)
+  * Coverity reported fixes.
+  * Improved documentation (Ivan Gomez)
+
+[2.1.60 release]
+
+  * Fixes: NB#109099 (Memory leak in Hildon touch selector)
+  * Fixes: NB#107386 (Odd stacking behaviour for information banners)
+  * Fixes: NB#94957 (Smoothly opened application menu)
+  * Fixes: NB#109179 (Memory leak in Hildon program)
+  * Fixes: NB#107775 (No scrollbars can be seen when several items are
+    available in a dialog)
+  * Fixes: NB#106375 (Need API to retitle a window with a title
+    including markup)
+  * Fixes: NB#109369 (Hard-coded height in HildonPickerDialog)
+  * Fixes: NB#109639 (Update hildon passwd dialogs to Hildon 2.2)
+
+  New API:
+
+  * hildon_window_stack_get_windows()
+  * New "markup" property and hildon_window_{get,set}_markup()
+    methods.
+
+  Other:
+
+  * More HildonPannableArea tunning.
+  * Fixed some memory leaks.
+
+[2.1.58 release]
+
+  * Fixes: NB#107583 (Hildon app menu crashes in various applications)
+  * Fixes: NB#106067 (hildon_play_system_sound() play sound only first
+    time called)
+  * Fixes: NB#106998 (HildonProgram's is-topmost property doesn't
+    change when the user tasks in/out of an application)
+  * Fixes: NB#107897 (Patch to make editmodetoolbar background
+    themeable and adjust margin)
+
+[2.1.56 release]
+
+  * Fixes: NB#107494 (Items stay selected when clicking and moving
+    away when inside pannable area)
+  * Fixes: NB#103564 (Make hildon animation banner use individual image
+    files as the animation)
+  * Fixes: NB#107471 (hildon_entry_set_text() not setting the text
+    when the placeholder text is already set)
+
+[2.1.54 release]
+
+  Bug fixes:
+
+  * Fixes: NB#105190 (Text input area of HildonTouchSelectorEntry to
+    be selected manually for the HW keys to work)
+  * Fixes: NB#105427 (Clicking and dragging ( for pixel values more
+    than the threshold value ) within the button is not sending the
+    event to the child)
+  * Fixes: NB#106607 (hildon_init should issue error message upon
+    successive calls)
+
+  Other:
+
+  * Improved usability in HildonPannableArea and HildonTouchSelectorEntry.
+  * Some examples cleaned up.
+  * Code fixes.
+
+[2.1.52 release]
+
+  Bug fixes:
+
+  * Fixes: NB#104485 (Not able to address the call when application menu is
+    opened at background)
+  * Fixes: NB#105507 (hildon_date_button_set_date leads to crash.)
+  * Fixes: NB#105407 (highlight is not cancelled when panning starts)
+  * Fixes: NB#105455 (HildonTouchSelectorPrintFunc lacks user data)
+  * Fixes: NB#105678 (HildonTextView should use logical colours instead of
+    setting widget name)
+
+  New API:
+
+  * (HildonTouchSelectorPrintFunc *) (HildonTouchSelector * selector, gpointer user_data)
+  User data parameter added to (HildonTouchSelectorPrintFunc *) signature.
+  * hildon_touch_selector_set_print_func_full (): support for user data and a destroy callback.
+
+  Other:
+
+  * More HildonPannableArea fine tunning.
+  * Documentation improvements.
+  * Minor theming fixes.
+
+[2.1.50 release]
+
+  Bug fixes:
+
+  * Fixes: NB#105012 (buttons inside a pannable area not getting release
+    event when dragging/releasing)
+
+[2.1.48 release]
+
+  Bug fixes:
+
+  * Fixes: NB#103758 (No way to obtain a menu from a  HildonStackableWindow)
+  * Fixes: NB#103761 (HildonAppMenu doesn't have methods to get its children)
+  * Fixes: NB#104439 (hildon_date_button_new() isn't set to the current date by
+    default)
+  * Fixes: NB#104485 (Not able to address the call when application menu is
+  opened at background)
+  * Fixes: NB#104819 (Clean up old icon names from hildon-widgets)
+  * Fixes: NB#104815 (I need accessor to the entry inside
+  HildonTouchSelectorEntry)
+  * Fixes: NB#102541 (value entered in the touch selector entry is not shown
+  when opened for second time)
+
+  New API:
+
+  * HildonAppMenu:
+    hildon_app_menu_get_items()
+    hildon_app_menu_get_filters()
+    HildonAppMenu::filter-vertical-spacing style property.
+  * hildon_stackable_window_{get,set}_app_menu()
+  * hildon_window_get_main_menu()
+  * hildon_touch_selector_entry_get_entry()
+  * HildonPannableArea properties:
+    ::drag-inertia, ::panning-threshold, ::scrollbar-fade-delay,
+    ::bounce-steps, ::force and ::direction-error-margin
+
+  Deprecations:
+
+  * hildon_window_get_menu(): use hildon_window_get_main_menu()
+  * hildon_stackable_window_set_main_menu(): use hildon_stackable_window_set_app_menu()
+
+[2.1.46 release]
+
+  Bug fixes:
+
+  * Fixes: NB#101603 (Focus is not even for the text entry boxes in
+    Contact editor dialog)
+  * Fixes: NB#92297 (Preview content is not clearly visible for
+    default colour text)
+  * Fixes: NB#101889 (Picker dialog should not close when nothing is
+    selected in multiple selection list)
+  * Fixes: NB#97458 (Pannable area prevents propagation of button
+    press events)
+  * Fixes: NB#103242 ("HildonPickerButton:value-changed" is emitted
+    before actual change of values)
+  * Fixes: NB#100468 (Application menu window is launched even when a
+    new secondary-window/dialog is pending to be shown/realized)
+
+  New API:
+
+  * hildon_app_menu_popup(): New function to pop up a HildonAppMenu
+  * hildon_picker_button_value_changed(): Programmatically emit "value-changed".
+
+  Other:
+
+  * unit testing suite fixes (Sven Herzberg)
+  * Removed hildon-remote-texture.h from hildon.h.
+  * Themability improvements.
+  * Code fixes.
+  * HildonPannableArea improvements.
+
+[2.1.44 release]
+
+  Bug fixes:
+
+ * Fixes: NB#100646 (Logical strings is shown for ok in set
+   password,Password needed dialogs)
+ * Fixes: NB#100445 (Hildon banner gets destroyed when a dialog is
+   opened)
+ * Fixes: NB#101916 (Do not allow custom icons on animation banner)
+ * Fixes: NB#101698 (Back button long press and delete-event handling)
+ * Fixes: NB#99915 (Date and Time options are not localised in Date
+   and Time setttings)
+ * Fixes: NB#101043 (Second row of all the command button are
+   displayed in transparent mode.)
+ * Fixes: NB#102225 (Crash setting the progress indicator to a non
+   visible window)
+ * Fixes: NB#102262 (memory leak in hildon_button_set_style())
+ * Fixes: NB#101793 (Make edit toolbar the same height as window
+   title bar (use title area theming))
+ * Fixes: NB#102467 (Do not show highlight on the text in
+   HildonCaption)
+ * Fixes: NB#102338 (HildonPannableArea scrolling indicator does not
+   treat ->lower correctly)
+ * Fixes: NB#102413 (The text margins (wrapping) in information
+   banner should be HILDON_MARGIN_TRIPLE)
+
+  New API:
+
+  * HildonRemoteTexture (Gordon Williams)
+  * HildonPannableArea:low-friction-mode property.
+
+  Deprecations:
+
+  * hildon_banner_show_annimation(): No more user defined icons.
+
+  Other:
+
+  * Theming improvements.
+  * Increased the maximum speed of the pannable area to improve usability.
+  * Memory leaks fixed and other code fixes.
+
+[2.1.42 release]
+
+  Bug fixes:
+
+  * Fixes: NB#100487 (HildonStackableWindow transiency becomes
+    incoherent)
+  * Fixes: NB#98039 (Wishlist: hildon_window_add_edit_toolbar())
+  * Fixes: NB#100320 (HildonPannableArea does not listen to
+    GtkAdjustment "change" signals)
+  * Fixes: NB#99802 (Hildon touch selector entry not working properly
+    for some of the input modes)
+  * Fixes: NB#100468 (Application menu window is launched even when a
+    new secondary-window/dialog is pending to be shown/realized.)
+  * Fixes: NB#93165 (HildonTouchSelector::changed not emitted when the
+    selection is programmatically changed)
+
+  Deprecations:
+
+  * Removed obsolete icon sizes:
+    HILDON_ICON_PIXEL_SIZE_WIZARD
+    HILDON_ICON_PIXEL_SIZE_BIG_NOTE
+    HILDON_ICON_PIXEL_SIZE_NOTE
+
+  Other:
+
+  * Documentation improvements.
+  * Misc. code improvements.
+  * Icon sizes updates.
+
+[2.1.40 release]
+
+  Bug fixes:
+
+  * Fixes: NB#98855 (HildonBanner uses qgn_note_infoprint)
+  * Fixes: NB#98614 (Hildon information note (background) should have
+    minimum height and maximum text width)
+  * Fixes: NB#91657 (HildonPickerDialog closes immediately when used
+    with some dynamic tree model)
+  * Fixes: NB#97468 (HildonPickerDialog doesn't need to show selected
+    contents in title)
+  * Fixes: NB#99713 (HildonButton value label color is wrong)
+  * Fixes: NB#94970 (Hildon Edit Mode Toolbar should use back button
+    graphics from theme)
+
+  Other:
+
+  * Do not use cairo to render the HildonPannableArea panning indicators.
+  * HildonButton layout fixes.
+  * Improved and updated examples.
+  * Documentation improvements.
+
+[2.1.38 release]
+
+  Bug fixes:
+
+  * Fixes: NB#98609 (Use wdgt_ strings for all hildon dialog buttons)
+  * Fixes: NB#98537 (Device hangs in account settings dialog)
+  * Fixes: NB#95395 (prestarted applications show GLIB WARNING ** Gdk
+    - gdkdrawable-x11.c:878 drawable is not a pixmap or window)
+  * Fixes: NB#98383 (is-topmost signal is not emitted when task
+    switcher is clicked.)
+
+  New API:
+
+  * New HildonAnimationActor widget (Artem Egorkine)
+
+  Other:
+
+  * Reverted change in pannable area that caused irresponsive applications.
+  * Pannable Area misc. improvements.
+
+[2.1.36 release]
+
+  Bug fixes:
+
+  * Fixes: NB#93410 (API required for setting IM mode in HildonTouchSelectorEntry)
+  * Fixes: NB#94460 (stackable window's menu is not closed when its window is hidden)
+  * Fixes: NB#97015 (HildonPickerButton shouldn't gtk_dialog_run() the picker dialog)
+  * Fixes: NB#95828 (HildonTextView functionality)
+  * Fixes: NB#96202 (FKB causes HildonPickerButton's value update before the selection is accepted in the dialog)
+  * Fixes: NB#94970 (Hildon Edit Mode Toolbar should use back button graphics from theme)
+  * Fixes: NB#96225 (Dialog titles are not shown according to the values selected in the list picker)
+  * Fixes: NB#96226 (In multiple selection mode Done button is shown sometimes in listpicker)
+  * Fixes: NB#96837 (HildonPannableArea - scroll indicator shown despite the view not being scrollable)
+  * Fixes: NB#95709 (Invalid casts in HildonPannableArea(?))
+  * Fixes: NB#97458 (Pannable area prevents propagation of button press events)
+  * Fixes: NB#97028 (Pannable area updates on every motion event)
+  * Fixes: NB#92849 (Selected item is not always visible when HildonTouchSelector is shown)
+  * Fixes: NB#97908 (Not possible to change the year range in HildonDateSelector/HildonDateButton)
+  * Fixes: NB#98317 (Provide parametarized API for TimePicker widget)
+
+  New API:
+
+  * HildonPickerDialog:
+
+    - ::center-on-show property:
+      Whether to center on the selected items each time the dialog is presented.
+
+  * HildonTouchSelector:
+
+    - hildon_touch_selector_entry_set/get_input_mode: New accessors for
+      the input mode used in a HildonTouchSelectorEntry's entry.
+    - hildon_touch_selector_unselect_all(): Unselect current selection
+      in one of the columns.
+    - hildon_touch_selector_center_on_selected(): Centers on the nearest
+      selected element in each column.
+
+  * HildonDateSelector:
+
+    - ::min-year, ::max-year properties:
+      Allows to define boundaries for the year column in the selector.
+    - hildon_date_selector_new_with_year_range():
+      Create a date selector with custom year boundaries.
+
+  * HildonDateButton:
+
+    - hildon_date_button_new_with_year_range():
+      Create a button with custom year boundaries in its date selector.
+
+  * HildonEditToolbar:
+
+    - ::arrow-width and ::arrow-height style properties:
+      Allow to set the size of the arrow button.
+
+  * HildonTimeSelector:
+
+    - ::minutes-step:
+      Allows to define steps between minutes in the time selector.
+    - hildon_time_selector_new_step():
+      Allows to create a HildonTimeSelector with a custom minutes step.
+
+  * HildonTimeButton:
+
+    - hildon_time_button_new_step():
+      Allows to create a HildonTimeButton with a custom minutes step in
+      its selector.
+
+  Other:
+
+  * Improved documentation.
+  * Many code fixes and memory leaks fixed.
+  * Improved HildonPannableArea responsiveness/performance.
+
+[2.1.34 release]
+
+  Bug fixes:
+
+  * Fixes: NB#94460 (stackable window's menu is not closed when its
+  window is hidden)
+  * Fixes: NB#89890 (Information notes does not get disappeared after
+  few seconds)
+
+  Other:
+
+  * Code cleanups, minor fixes.
+
+[2.1.32 release]
+
+  Bug fixes:
+
+  * Fixes: NB#95714 (GtkCellView in HildonCheckButton should be
+    larger / configurable size)
+
+  Other
+
+   * Update a GtkRange property change in GTK+ (Christian Dywan)
+
+[2.1.30 release]
+
+  Bug fixes:
+
+  * Fixes: NB#93744 (Tapping should jump to location on GtkScale)
+
+  New API:
+
+  * hildon_pannable_area_get_[sv]adjustment(): Method to retrieve the GtkAdjustments
+    in HildonPannableArea.
+
+  Other:
+
+  * Code fixes.
+  * Leaks fixed.
+  * New progress indicator example (Thomas Thurman)
+  * Documentation improvements and updates (Ivan Gomez).
+  * Theme properly HildonPickerButton derived classes.
+
+[2.1.28 release]
+
+  Bug fixes:
+
+  * Fixes: NB#94214 (No way to stop HildonWizardDialog from going to
+    next page)
+  * Fixes: NB#94972 (Hildon Picker with Entry should use HildonEntry
+    widget, not GtkEntry)
+  * Fixes: NB#90867 (Deprecate HildonDialog and use GtkDialog (with
+    maemo changes) instead)
+
+  New API:
+
+  * hildon_program_set/get_common_app_menu(): Use to set a common
+    HildonAppMenu for all stackable windows in a HildonProgram.
+  * hildon_wizard_dialog_set_forward_page_func(): Use to define a
+    HildonWizardDialogPageFunc function to control flow of the wizard.
+  * hildon_gtk_tree_view_set_ui_mode(): Method to change the UI mode.
+  * hildon_gtk_icon_view_set_ui_mode(): Method to change the UI mode.
+  * HildonPannableArea::size-request-policy: Size requisition policy property.
+  * hildon_pannable_area_set/get_size_request_policy(): Method to change the
+    size request policy.
+
+  Deprecations:
+
+  * HildonDialog. Prefer GtkDialog instead.
+
+  Other:
+
+  * Examples updated, code fixes, documentation updates.
+  * Explicitely set the interactive search widget off in hildon specific
+    GtkTreeView.
+  * Bump GTK+ dependency to 2.12.12.
+
+[2.1.26 release]
+
+  Bug fixes:
+
+  * Fixes: NB#92230 (Scroll indication not visible in HildonTouchSelector)
+  * Fixes: NB#93281 (new API: hildon_button_set_picker_style() to set
+    HildonButton look like PickerButton)
+  * Fixes: NB#93680 (HildonTimePicker need fully localized am/pm)
+  * Fixes: NB#93228 (Done button is not shown always in listpicker)
+  * Fixes: NB#93890 (Empty HildonAppMenu is pop-up)
+  * Fixes: NB#92032 (In calendar application, date values in 'new event'
+    are not proper)
+  * Fixes: NB#94322 (Scale Updates)
+  * Fixes: NB#94350 (HildonWindowStack:s have the same X Window group)
+
+  New API:
+
+  * HildonWindowStack: Support for multiple window stacks per application.
+  * HildonButton::style property. See below.
+  * hildon_button_set_picker_style(): Sets a different style to the value label
+    in HildonButton.
+  * HildonTouchSelector:columns-changed signal: Emitted every time the number
+    of columns in a HildonTouchSelector changes.
+
+  Deprecations:
+
+  * hildon_program_pop_window_stack(),
+    hildon_program_peek_window_stack(),
+    hildon_program_go_to_root_window(): Superseded by HildonWindowStack.
+
+  Other:
+
+  * Many code fixes.
+  * Examples updates and improvements.
+  * Documentation improvements.
+
+[2.1.24 release]
+
+  Bug fixes:
+
+  * Fixes: NB#89811 (Not able to select first image thumbnail in multi
+    selection mode using custom widget inside pannable)
+  * Fixes: NB#91863 (hildon_touch_selector_set_column_selection_mode()
+    breaks HildonPickerDialog)
+  * Fixes: NB#91769 (HildonColorChooserDialog's selected colour is
+    highlighted but not visible)
+  * Fixes: NB#92897 (HildonNotes have incorrect WINDOW_TYPE)
+  * Fixes: NB#92744 (HildonDateSelector emits multiple "changed" singal
+    with strange parameters)
+  * Fixes: NB#92664 (Deprecate hildon_helper_set_insensitive_message)
+  * Fixes: NB#89754 (Applications shouldn't display their names in the
+    window title)
+  * Fixes: NB#92476 (Update icon size constants to Fremantle (hildon-defines.h))
+
+  Deprecations:
+
+  * hildon_helper_set_insensitive_message()
+  * hildon_helper_set_insensitive_messagef()
+  * hildon_volumebar_set_range_insensitive_message()
+  * hildon_volumebar_set_range_insensitive_messagef()
+
+  New API:
+
+  * hildon_init(): Initialization function for the library.
+  * hildon_gtk_init(): Convenience init function for hildon and GTK+
+
+  Other:
+
+  * Build system improvements.
+  * Examples updated.
+
+[2.1.22 release]
+
+  Bug fixes:
+
+  * Fixes: NB#91688 (Never show icons in information notes/confirmation
+    notes)
+  * Fixes: NB#91995 (Calendar is crashing after pressing 'Enter' HW key
+    in HildonDateSelector dialog)
+
+  Deprecations:
+
+  * hildon_note_new_confirmation_with_icon_name(): deprecated
+  * hildon_note_new_information_with_icon_name(): deprecated
+  * HildonNote::icon and HildonNote::stock_icon: deprecated
+
+  Other:
+
+  * Logical ids fixes.
+  * Examples updated.
+  * Build system improved.
+
+[2.1.20 release]
+
+  Bug fixes:
+
+  * Fixes: NB#89541 (Crash in pannable area when closing picker dialog)
+  * Fixes: NB#90994 (HildonPannableArea does not connect "destroyed"
+    on child)
+  * Fixes: NB#91192 (Memory leak in HildonTouchSelector default print
+    function)
+  * Fixes: NB#91135 (Deprecate legacy hildon widgets)
+  * Fixes: NB#90662 (HildonButton "value" and "detail" text is
+    unformatted)
+  * Fixes: NB#91104 (Remove stepper buttons from legacy hildon widgets)
+  * Fixes: NB#91016 (Change toolbar sizes, simplification)
+  * Fixes: NB#91385 (Hildon Touch List panning should be ALWAYS vertical only)
+
+  Deprecations:
+
+  * All Fremantle deprecated widgets has been marked as such with
+    HILDON_DISABLE_DEPRECATED marks.
+
+  Other:
+
+  * Improved sizing of the HildonTouchSelector/HildonPickerDialog widgets.
+  * Corrected alignment of HildonCheckButton contents.
+  * Many cancel-like button fixes.
+
+  ABI:
+
+  * Reverted change introduced in 2.1.16 that broke ABI compatibility. See
+    NB#91636 for further explanation.
+
+[2.1.18 release]
+
+  Bug fixes:
+
+  * Fixes: NB#90535 (Memory leak in picker button)
+  * Fixes: NB#90861 (Custom Confirmation dialogs should be protected
+    from cancel button removal)
+  * Fixes: NB#90661 (Delete dialog is displayed without NO button)
+
+  Other:
+
+  * Remove all cancel/close dialogs, where appropriate.
+  * Documentation improvements, some internal cleanups.
+  * HildonAppMenu: unhandled keyboard accelerators are sent to the parent window.
+
+[2.1.16 release]
+
+  * HildonTouchSelector internal layout cleaning.
+  * Improved HildonButton customizability.
+  * Allow Hildon Touch Menu theming (Daniel Borgmann)
+
+  Bug fixes:
+
+  * Fixes: NB#89411 (Window Manager locks caused by HildonStackableWindow)
+  * Fixes: NB#89935 (Shortcuts for menu buttons are not working)
+  * Fixes  NB#90232 (Picker button does not set the label on done button for the
+    second time)
+
+[2.1.14 release]
+
+  Bug fixes:
+
+  * Fixes: NB#88644 (Hardcoded first column of the model as text column)
+  * Fixes: NB#89329 (selectors in picker dialog are not visible when a
+    long text is set as label for done button)
+  * Fixes: NB#89651 (HildonTouchSelectorEntry title is <unnamed>, when
+    entry is empty)
+  * Fixes: NB#89632 (Picker button selection doesn't change on first click)
+  * Fixes: NB#88946 (Hildon Picker button should disable itself if there are no
+    values)
+  * Fixes: NB#89650 (Picker button is not updated, when selection in selector
+    has changed)
+
+  API additions:
+
+  * HildonTouchSelectorColumn::text-column property.
+  * hildon_picker_button_set_done_button_text() and
+    hildon_picker_button_get_done_button_text()
+  * HildonCheckButton is a proper widget.
+
+  Deprecations:
+
+  * HildonWeekdayPicker
+  * HildonTouchSelectorEntry::text-column property, use
+    HildonTouchSelectorColumn::text-column instead.
+  * hildon_touch_selector_set_column_attributes(), use
+    HildonTouchSelectorColumn and friends.
+  * HildonAppMenu::columns property, this is managed automatically now.
+
+  Other:
+
+  * hildon_gtk_set_theme_size() sets widget name using "WidgetName-size" layout,
+    to ease proper theming (Daniel Borgmann)
+  * Many documentation improvements and additions.
+  * Add --disable-deprecated configure option.
+
+[2.1.12 release]
+
+  Bug fixes:
+
+  * Fixes: NB#88576 (critical warning in HildonTouchSelectorEntry)
+  * Fixes: NB#88720 (HildonPickerButton leaks a reference to the
+    HildonTouchSelector)
+  * Fixes: NB#88718 (HildonPickerButton not synchronizing its initial
+    'value' with the selector)
+  * Fixes: NB#88891 (Allow WM to handle properly close-on-tap-outside behavior)
+  * Fixes: NB#88850 (Update HildonNote button strings + signals)
+  * Fixes: NB#88887 (Hildon Wizard changes for Hildon2.2)
+  * Fixes: NB#88680 (Limiting API in HildonTouchSelector)
+  * Fixes: NB#88923 (Semantics of hildon_stackable_window_set_main_menu()
+    changed)
+  * Fixes: NB#88927 (Hildon Wizard should not use icons anymore)
+
+  API additions:
+
+  * New methods to set/get index of selected item in HildonPickerButton and
+    HildonTouchSelector.
+  * Add HildonAppMenu::columns property.
+  * New HildonTouchSelectorColumn class implementing GtkCellLayout interface.
+
+  Other:
+
+  * Examples updated, coding, theming, and documentation fixes.
+
+[2.1.10 release]
+
+* Fixes: NB#88214 (HildonPannableArea wrong requisition)
+* Fixes: NB#88287 (Missing translations)
+* Fixes: NB#88364 (Update margins definitions)
+* Fixes: NB#88414 (Crash in HildonDateSelector on finalize)
+* New widget: HildonTextEntry.
+* Removed long deprecated methods hildon_check_button_set_label(),
+  hildon_check_button_get_label().
+* New method: hildon_gtk_window_set_progress_indicator() to set progress
+  indicator in windows (depends on feature being implemented in WM).
+* Documentation updates, coding fixes, examples updates. See ChangeLog for
+  details.
+
+[2.1.8 release]
+
+* Make -gdb package contain useful debugging symbols.
+* Fixes: NB#88022 (parameter validation in
+  hildon_touch_selector_get_num_columns)
+* Fixes: NB#88023 (day range check
+  in hildon_date_selector_select_current_date)
+* Fixes: NB#88027 (implement hildon_date_selector_select_month)
+* Fixes: NB#88045 (fix logical id for time in HildonTimeSelector)
+* Fixes: NB#88047 (fix retrieval of selected items in HildonTouchSelector)
+* Fixes: NB#88036 (fix range of 12h time in HildonTimeSelector)
+* Fixes: NB#88049 (fix columns removal from HildonTouchSelector)
+* New hildon_button_get_image() method in HildonButton.
+* New widget: HildonEntry.
+* New methods to add buttons with finger size in HildonDialog.
+* Miscellaneous improvements, other minor bug fixes, documentation
+  improvements and examples updates. See ChangeLog for details.
+
+[2.1.6 release]
+
+* Deprecated hildon_check_button_{set/get}_label().
+* Renamed HILDON_PANNABLE_AREA_MOV_* macros to HILDON_MOVEMENT_*
+* Initial hint in the pannable area set to FALSE.
+* Renamed properties in HildonPannableArea from {h,v}indicator-mode to
+  {h,v}indicator_policy, and {h,v}scroll to {h,v}scroll_visible.
+* New widget: HildonEditToolbar.
+* Renamed hildon_touch_selector_{set,get}_active_iter() to
+  hildon_touch_selector_select_iter() and hildon_touch_selector_get_selected().
+* Several API additions, bug fixes, internals improvements, documentation
+  improvements, and examples updates. See ChangeLog for details.
+
+[2.1.4-1 release]
+
+* Lot of changes, see ChangeLog for more information.
+* Depending on the new Gtk+.
+
+[2.1.3-1 release]
+
+* Tons of changes, see the ChangeLog for more information.
+* Replaced libesd with libcanberra. Fixes: NB#86876
+
+[2.1.2-1 release]
+
+* Too many individual changes for them to all be relevant here, many widgets
+  added, many widgets have been changed. A full list of additional/changed
+  widgets can be found in the Hildon 2.2 widget UI spec.
+
+[2.1.1-1 release]
+
+* Too many individual changes for them to all be relevant here, many widgets
+  added, many widgets have been changed. A full list of additional/changed
+  widgets can be found in the Hildon 2.2 widget UI spec.
+
+[2.0.3-1 release]
+
+* Fixes: NB#78896: libhildon code inspection/coverity: uninitialised local
+  values in hildon_date_editor_size_allocate
+* Fixes: NB#77775: Media Player, Save Now playing list, too long name makes
+  banner disappear.
+* Fixes: NB#79182: info banner flickering with certain message lengts.
+* Fixes: NB#83953: Lock dialog is not visible when device is locked for the
+  first time after flash
+
+[2.0.2-1 release]
+
+* Fixes: MB#1220: HildonWindow should take GtkMenu accel_group into account
+* Fixes NB#78481: information banners are hidden under browser menu
+* Fixes: NB#79791: Cannot set focus to Master volume using stylus
+* Fixes: NB#22072: Revisiting fix for "Implement robust timer handling in Info
+  Banner" bug
+* Fixes: MB#924: Hildon widgets doesn't support RTL mode
+* Fixes: MB#1212: Hide info banners (infoprints) on click
+* Enable fixing: NB#79916 and NB#79918: The help topic for Color selector
+  cannot be opened
+* Fixes: NB#81696: The passcode is not overwritten even after	selecting
+
+[2.0.1-2 release]
+
+* Fixes: MB#1276: wrong allocators used in hildon_window_get_borders
+
+[2.0.1-1 release]
+* Do not use PACKAGE_VERSION_MAJOR for the API revision.
+
+[2.0.0-1 release]
+* Fix breadcrumb trail node removal logic.
+* Add missing outer-border style for HildonColorChooser.
+
+[1.99.1-1 release]
+* Accesability fixes for get/set password dialog.
+
+[1.99.0-1 release]
+* Upping version to (almost) 2.0.0 for hildon 2.0
+
+[1.0.17-1 release]
+* Fixed toolbar visibility
+* Fixed breadcrumb separator 
+
+[1.0.16-1 release]
+* Mem-leak fixes in font selector and color selector
+* Mem-leak fix in style helper
+* Making the code dialog a bit more thumbable 
+
+[1.0.15-1 release]
+* Fixing hw keyboard support in lock code dialog
+* Fixing focus behavior in caption
+* Additions to find toolbar
+* Documentation fixes
+
+[1.0.14-1 release]
+* Removing the patch for hiding HildonWindow before destroy. Breaks DBus.
+* Fixes for HildonCalendar expose methods
+* Fixes for composite-widgets focus handling
+* New dialog layout for the HildonCalendar (Ok/Cancel)
+* Making find toolbar thumbable
+* Changing the stylus repeat timeout to match our needs
+* New esd dependency 
+
+[1.0.13-1 release]
+* Fixes to HildonBanners for temporary windows
+* Minor bugfix in the helper function for logical colors
+* New examples
+
+[1.0.12-1 release]
+* New HILDON_CHECK_VERSION macro
+* Bugfixes
+* Minor doc updates
+
+[1.0.11-1 release]
+* Adding some new API functions to control the active item in HildonFindToolbar
+* Fixing the default focus for font selection dialog
+* New examples
+* Changing the default long key press time
+* Fixed time picker on-map breakage
+
+[1.0.10-2 release]
+* Fix header installation
+
+[1.0.10-1 release]
+* Fixing a bit of focus crazyness in the time and date editors
+* Removing the separator from the code dialog
+* Fixing circular dep to enums
+* Hide the HildonWindow before performing the destroy
+
+[1.0.9-1 release]
+* Breadcrumb align/visibility fixes
+* HildonWindow fixes
+
+[1.0.8-1 release]
+* HildonBanner fixes for transiency
+* InfoBanner fixes
+* Updated examples 
+* A few other fixes in few places 
+
+[1.0.7-1 release]
+* Adding the gtk-timeout-update multiplier  to certain widgets
+
+[1.0.6-1 release]
+* Memory allocation fixes for color and font selection widgets
+* Breadcrumb leak/visibility fixes
+* New examples
+
+[1.0.5-1 release]
+* Fixes in the HildonWizardDialog
+* Memory freeing fixes in font selection dialog
+* Breadcrumb update
+
+[1.0.3-1 release]
+* Removing the API guard from helper functions. It was a mistake.
+
+[1.0.2-1 release]
+* Guard unstable API's with ENABLE_UNSTABLE_API define
+* Breadcrumb updates
+* Fixing a problem with timed banners having their parrent destroyed before they are
+* Fixing the sh libs
+
+[1.0.1-1 release] 
+* Breadcrumb trail widget by Xan
+* Fingerable scrollbar API by Michael
