@@ -1,0 +1,19 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+hildondesktoplibdir=${exec_prefix}/lib/hildon-desktop
+hildonpluginloaderlibdir=${exec_prefix}/lib/hildon-desktop/loaders
+hildonstatusmenudesktopentrydir=${datarootdir}/applications/hildon-status-menu
+hildonhomedesktopentrydir=${datarootdir}/applications/hildon-home
+hildonnotificationdesktopentrydir=${datarootdir}/applications/hildon-notification
+
+Name: libhildondesktop
+Description: Hildon Desktop Library
+Requires: glib-2.0 gtk+-2.0 hildon-1 gnome-vfs-2.0 dbus-1
+Version: 2.1.44
+Libs: -L${libdir} -lhildondesktop-1
+Cflags: -I${includedir}/libhildondesktop-1
+

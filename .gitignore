@@ -1,0 +1,10 @@
+*.o
+Makefile
+*.lo
+missing
+config.*
+.deps
+.libs
+m4
+*.la
+autom4te.cache
